@@ -1,8 +1,6 @@
 // Update with your config settings.
 const Db = require("../.env");
 
-console.log(Db);
-
 module.exports = {
 	development: {
 		client: Db.type,
